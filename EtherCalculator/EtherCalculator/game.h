@@ -13,8 +13,11 @@ public:
 
 	void update();
 	void draw();
-	//ƒL[‚ğ‘‚«‚½‚¢‚Æ‚«ŒÄ‚Ño‚·
-	void draw_key(int x, int y);
 private:
 	State state;
+	int copper=0,P_copper=0;
+	int silver=0, P_silver=0;
+	int gold=0, P_gold=0;
+	int legend=0, P_legend=0;
+	int total = 0;
 };
