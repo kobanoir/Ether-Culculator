@@ -8,7 +8,7 @@ void Main()
 
 	auto game = make_shared<Game>();
 
-	if (!FontManager::Register(L"Example/uzura.ttf"))
+	if (!FontManager::Register(L"uzura.ttf"))
 	{
 		return;
 	}
